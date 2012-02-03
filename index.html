@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+		<script type="text/javascript" src="lib/bootstrap-modal.js"></script>
 		<title>Einstein Express</title>
 	</head>
 	<body>
@@ -37,7 +38,8 @@
 				</div>
 				<div class = "span4">
 					<p> Sed mattis neque eu libero dapibus ut semper sem posuere. Praesent fermentum adipiscing nulla nec commodo. Vivamus et libero erat, sit amet pretium lacus. Nunc semper sollicitudin vulputate. Suspendisse potenti. Quisque quis urna dolor. Curabitur sit amet lorem eget diam mattis consequat. Quisque gravida, arcu et suscipit sodales, erat est vulputate mi, nec sodales tortor erat at sem. Maecenas sit amet porta leo. Vestibulum vel quam odio.</p>
-					<p>Suspendisse potenti. Maecenas facilisis eleifend erat in gravida. Aliquam dui neque, scelerisque nec consectetur ut, vulputate ut quam. Suspendisse potenti. Cras iaculis rhoncus dolor eu tincidunt. Etiam semper, quam id auctor commodo, purus velit rutrum massa, vitae auctor quam mi eu sapien. Mauris lacinia nibh ut leo sodales accumsan. Sed porta mauris ut tellus convallis commodo. Vivamus varius elit malesuada odio vulputate tempus.</p>
+					<p>Suspendisse potenti. Maecenas facilisis eleifend erat in gravida. Aliquam dui neque, scelerisque nec consectetur ut, vulputate ut quam. Suspendisse potenti. Cras iaculis rhoncus dolor eu tincidunt. Etiam semper, quam id auctor commodo. </p>
+					<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-large">See an Awesome Modal!</a>
 				</div>
 				<div class = "span4">
 					<p>Suspendisse potenti. Maecenas facilisis eleifend erat in gravida. Aliquam dui neque, scelerisque nec consectetur ut, vulputate ut quam. Suspendisse potenti. Cras iaculis rhoncus dolor eu tincidunt. Etiam semper, quam id auctor commodo, purus velit rutrum massa, vitae auctor quam mi eu sapien. Mauris lacinia nibh ut leo sodales accumsan. Sed porta mauris ut tellus convallis commodo. Vivamus varius elit.</p>
@@ -66,7 +68,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto; z-index: 1">
+		<div id="myModal" class="modal hide fade" style="position: relative; top: auto; left: auto; margin: 0 auto; z-index: 1">
 			<div class="modal-header">
 				<h3>Lorem ipsum</h3>
 				<a href="#" class="close">&amp;times;</a>
